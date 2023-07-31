@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+  </head>
+<body>
+  <main>
+    <div class="inputs">
+      <input type="file" id="selectedFile">
+      <br>
+      <input type="range" value="0" id="sx">
+      <input type="range" value="0" id="sy">
+      <input type="range" value="200" min="0" id="sw">
+      <input type="range" value="200" min="0" id="sh">
+      <label>
+        Zoom
+        <input type="checkbox">
+      </label>
+    </div>
+    <br>
+    <section class="workspace">
+      <div class="preview">
+        <img id="selectedImage">
+      </div>
+      <div class="preview croped" style="place-content: center;">
+        <img id="newImage">
+      </div>
+    </section>
+  </main>
+  <script type="module" src="script.js"></script>
+</body>
+</html>

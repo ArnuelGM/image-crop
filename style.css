@@ -1,0 +1,25 @@
+.inputs {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.workspace {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  user-select: none;
+}
+
+.preview {
+  display: grid;
+  position: relative;
+}
+
+.preview img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
+.controls {
+  position: absolute;
+}
